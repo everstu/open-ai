@@ -1,16 +1,16 @@
 {
-    "name": "orhanerday/open-ai",
+    "name": "everstu/open-ai",
     "description": "OpenAI GPT-3 Api Client in PHP",
     "keywords": [
         "orhanerday",
         "open-ai"
     ],
-    "homepage": "https://github.com/orhanerday/open-ai",
+    "homepage": "https://github.com/everstu/open-ai",
     "license": "MIT",
     "authors": [
         {
-            "name": "Orhan Erday",
-            "email": "orhanerday@gmail.com",
+            "name": "everstu",
+            "email": "faq@cock.li",
             "role": "Developer"
         }
     ],
