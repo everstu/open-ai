@@ -1,7 +1,7 @@
 <?php
 
 
-use Orhanerday\OpenAi\OpenAi;
+use Everstu\OpenAi\OpenAi;
 
 $open_ai = new OpenAi(getenv('OPENAI_API_KEY'));
 
