@@ -971,7 +971,7 @@ class OpenAi {
         if ($this->fullUrl != "") {
             $url = $this->fullUrl;
         } elseif ($this->customUrl != "") {
-            $url = str_replace(Url::ORIGIN, $this->customUrl, $url);
+            $url = str_replace(Url::OPEN_AI_URL, $this->customUrl, $url);
         }
     }
 }
