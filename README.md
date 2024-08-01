@@ -179,7 +179,7 @@ Please visit https://orhanerday.gitbook.io/openai-php-api-1/
 You can install the package via composer:
 
 ```bash
-composer require orhanerday/open-ai
+composer require everstu/open-ai
 ```
 
 ## Quick Start ⚡
@@ -278,7 +278,7 @@ use Orhanerday\OpenAi\OpenAi;
 $nvidia_ai_key = getenv('NVIDIA_AI_API_KEY');
 error_log($open_ai_key);
 $open_ai = new OpenAi($nvidia_ai_key);
-$open_ai->setBaseURL("https://integrate.api.nvidia.com");
+$open_ai->setBaseURL("https://integrate.api.nvidia.com/v1");
 $chat = $open_ai->chat([
     'model' => 'mistralai/mixtral-8x7b-instruct-v0.1',
     'messages' => [["role" => "user", "content" => "Write a limmerick about the wonders of GPU computing."]],
@@ -330,7 +330,7 @@ You can specify Origin URL with `setBaseURL()` method;
 ````php
 $open_ai_key = getenv('OPENAI_API_KEY');
 $open_ai = new OpenAi($open_ai_key,$originURL);
-$open_ai->setBaseURL("https://ai.example.com/");
+$open_ai->setBaseURL("https://ai.example.com/v1");
 ````
 
 ## Use Proxy
