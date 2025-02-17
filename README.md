@@ -4,6 +4,10 @@
 
 <br />
 
+
+## If you want to ensure this project stays alive and continues to faster improve, please please consider supporting it. Your help means a lot. Thank you!
+* [Buy me a coffee](https://www.buymeacoffee.com/orhane)
+* [Patreon](https://patreon.com/orhann)
 > ### ChatGPT API is currently supported, [click here](#chat-as-known-as-chatgpt-api) for the implementation introductions.
 
 <br />
